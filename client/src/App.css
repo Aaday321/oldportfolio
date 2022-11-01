@@ -1,0 +1,68 @@
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.home_buttons{
+  display: flex;
+  justify-items: center;
+  align-items: center ;
+
+  margin: 0 auto;
+  max-width: 800px;
+
+  position: relative;
+  margin-left: 5rem;
+}
+
+.home_buttons 
+
+nav{
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 5rem;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav h1{
+  font-size: 2rem;
+  display: block;
+  background-color: blueviolet;
+  padding: .5rem;
+  margin-bottom: auto;
+  
+}
+
+
+
+.links{
+  margin-bottom: auto;
+  width: 100%;
+}
+
+.links a{
+  /*Reaplace with icons*/
+  text-align: center;
+  margin-block: 2rem;
+  padding-block: 2rem ;
+  background-color:darkgreen;
+  display: block;
+  width: 100%;
+}
+
+
